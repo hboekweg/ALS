@@ -242,7 +242,7 @@ accuracy = function(slope, sd, number_of_cells, number_of_subsamples){
 sd_1 = accuracy(slope=1, sd = 1, number_of_cells = 16, 3)
 
 
-write.csv(areas, "areas/sd_1")
+write.csv(areas, "sd_1")
 
 
 
