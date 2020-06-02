@@ -1,5 +1,8 @@
+install.packages("devtools")
+library(devtools)
+install_github("shenorrLab/cellAlign")
 library(cellAlign)
-require(ggplot2)
+
 
 generate_data = function(slope, sd){
   X = runif(1000)
