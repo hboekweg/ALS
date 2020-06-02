@@ -1,6 +1,4 @@
-install.packages("devtools")
 library(devtools)
-install_github("shenorrLab/cellAlign")
 library(cellAlign)
 
 
